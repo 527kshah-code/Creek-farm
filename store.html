@@ -19,7 +19,7 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                        <img src="..." alt="..." width="30%" class="d-inline-black align-text-top">
+                    <img src="..." alt="..." width="30%" class="d-inline-black align-text-top">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -48,11 +48,25 @@
         <main>
             <h1>Farm Store</h1>
             <p>Welcome to our farm store! We offer a variety of fresh produce, homemade goods, and farm-related merchandise. Our store is open daily from 9 AM to 6 PM. Come visit us to purchase our seasonal fruits and vegetables, homemade jams, baked goods, and unique farm-themed gifts. We also offer special discounts for visitors who have participated in our seasonal activities. Thank you for supporting local agriculture!</p>
+            <div class="col-md-4 filter-container">
+                <label for="filter" class="form-label">Filter by:</label>
+                <select id="filter" class="form-select">
+                    <option value="all">All</option>
+                    <option value="produce">Produce</option>
+                    <option value="animal products">Animal Products</option>
+                    <option value="bakery">Bakery</option>
+                    <option value="pantry&preserves">Pantry & Preserves</option>
+                    <option value="juices">Juices</option>
+                    <option value="plants&gardening">Plants & Garden</option>
+                    <option value="merch">Farm Merch</option>
+                </select>
+            </div>
+            
         </main>
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col text-center">
                         <img src="..." alt="..." width="30%" class="d-inline-black align-text-top">
                     </div>
                     <div class="col">
