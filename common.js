@@ -19,4 +19,28 @@ function displayStore() {
         container.appendChild(card);
     });
 }
+const filter = document.getElementById("filter");
+
+filter.addEventListener("change", () => {
+
+    const selected = filter.value;
+
+    if (selected === "all") {
+        displayStore();
+    } else {
+        const filtered = foodItems.filter(item =>
+            item.category === selected
+        );
+
+        displayStore(filtered);
+    }
+});
+
+const foodItems = [
+    {
+        name: "apple pie",
+        description: "A delicious apple pie made with fresh apples and a flaky crust.",
+
+    }
+]
 //end of js for the store page
