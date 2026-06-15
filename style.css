@@ -6,10 +6,10 @@
 }
 
 body {
-  background-image: url("Website Background Patterns/chekeredbg.png");
-  background-size: cover;
+  background-image: url('assets/Website Background Patterns/checkeredbg.png');
+  background-repeat: no-repeat;
   background-attachment: fixed;
-
+  background-size: cover;
   font-family: "Source Sans 3", sans-serif;
   color: var(--text);
 }
@@ -159,22 +159,18 @@ body {
   padding: 10px;
 }
 
-header{
+header {
+  text-align: center;
 
-text-align:center;
-
-padding:30px;
-
+  padding: 30px;
 }
 
-h1{
+h1 {
+  font-family: "Playfair Display", serif;
 
-font-family:'Playfair Display',serif;
+  font-size: 3.5rem;
 
-font-size:3.5rem;
-
-font-weight:600;
-
+  font-weight: 600;
 }
 
 .category {
@@ -250,7 +246,7 @@ font-weight:600;
 
   font-weight: bold;
 
-  color: var(--gold);
+  color: var(--gold) !important;
 }
 
 /* Footer */
