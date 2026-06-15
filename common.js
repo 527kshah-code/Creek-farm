@@ -1,5 +1,5 @@
 // starting the js for the store page
-const productFolder = "assets/productPhotos/";
+const productFolder = "assets/assets/productPhotos/";
 
 const foodItems = [
     {

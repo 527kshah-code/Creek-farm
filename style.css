@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url('assets/Website Background Patterns/checkeredbg.png');
+  background-image: url('assets/assets/Website\ Background\ Patterns/checkeredbg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -15,7 +15,7 @@ body {
 }
 
 .page-wrapper {
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
   background: var(--cream);
   min-height: 100vh;
@@ -34,6 +34,7 @@ body {
 .nav-link {
   color: white !important;
   font-family: "Source Sans 3";
+  font-size: 1.1rem;
 }
 
 /* Hero */
@@ -152,17 +153,23 @@ body {
 
   justify-content: center;
 
-  gap: 10px;
+  gap: 20px;
 
   flex-wrap: wrap;
 
-  padding: 10px;
+  padding: 15px;
 }
 
 header {
   text-align: center;
 
   padding: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+header p {
+  font-size: 1rem;
 }
 
 h1 {
@@ -173,6 +180,7 @@ h1 {
   font-weight: 600;
 }
 
+
 .category {
   border: none;
 
@@ -180,7 +188,7 @@ h1 {
 
   font-family: "Lora", serif;
 
-  font-size: 1rem;
+  font-size: 1.1rem;
 
   cursor: pointer;
 
