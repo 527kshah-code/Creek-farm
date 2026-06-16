@@ -66,7 +66,7 @@ const foodItems = [
         price: "$8.99",
     },
     {
-        image: productFolder + "strawberry.png",
+        image: productFolder + "strawberries.jpg",
         name: "Strawberries",
         category: "produce",
         description:
@@ -74,7 +74,7 @@ const foodItems = [
         price: "$5.99",
     },
     {
-        image: productFolder + "blueberries.png",
+        image: productFolder + "blueberries.jpg",
         name: "Blueberries",
         category: "produce",
         description:
@@ -82,7 +82,7 @@ const foodItems = [
         price: "$5.99",
     },
     {
-        image: productFolder + "carrots.png",
+        image: productFolder + "carrots.jpg",
         name: "Carrots",
         category: "produce",
         description:
@@ -90,14 +90,14 @@ const foodItems = [
         price: "$3.99",
     },
     {
-        image: productFolder + "spinach.png",
+        image: productFolder + "spinach.jpg",
         name: "Spinach",
         category: "produce",
         description: "Tender, nutrient-rich spinach picked fresh from the garden.",
         price: "$4.49",
     },
     {
-        image: productFolder + "corn.png",
+        image: productFolder + "corn.jpg",
         name: "Sweet Corn",
         category: "produce",
         description:
@@ -105,7 +105,7 @@ const foodItems = [
         price: "$0.75 each",
     },
     {
-        image: productFolder + "bell-peppers.png",
+        image: productFolder + "bell-peppers.jpg",
         name: "Bell Peppers",
         category: "produce",
         description:
@@ -113,7 +113,7 @@ const foodItems = [
         price: "$2.49 each",
     },
     {
-        image: productFolder + "tomatoes.png",
+        image: productFolder + "tomatoes.jpg",
         name: "Tomatoes",
         category: "produce",
         description: "Juicy vine-ripened tomatoes harvested at peak freshness.",
