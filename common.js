@@ -185,6 +185,27 @@ const foodItems = [
             "Freshly baked muffins packed with juicy blueberries and a soft, fluffy texture.",
         price: "$3.99 each",
     },
+    {
+    image: productFolder + "grape-juice.png",
+    name: "Grape Juice",
+    category: "juices",
+    description: "Freshly pressed grape juice made from sweet, sun-ripened grapes with a naturally rich flavor.",
+    price: "$5.99"
+    },
+    {
+    image: productFolder + "strawberry-lemonade.png",
+    name: "Strawberry Lemonade",
+    category: "juices",
+    description: "A refreshing blend of farm-fresh strawberries and tangy lemons, perfect for a warm summer day.",
+    price: "$4.99"
+    },
+    {
+    image: productFolder + "peach-juice.png",
+    name: "Peach Juice",
+    category: "juices",
+    description: "Smooth and sweet peach juice crafted from juicy orchard peaches picked at peak ripeness.",
+    price: "$6.49"
+    },
 ];
 // Starting JS for the store page
 
