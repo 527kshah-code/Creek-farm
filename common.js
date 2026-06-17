@@ -120,14 +120,14 @@ const foodItems = [
         price: "$4.99 per lb",
     },
     {
-        image: productFolder + "cucumber.png",
+        image: productFolder + "cucumber.jpg",
         name: "Cucumbers",
         category: "produce",
         description: "Cool, crisp cucumbers picked fresh from the garden.",
         price: "$1.50 each",
     },
     {
-        image: productFolder + "pickles-jar.png",
+        image: productFolder + "pickles-jar.jpg",
         name: "Homemade Pickles",
         category: "pantry & preserves",
         description:
@@ -135,28 +135,28 @@ const foodItems = [
         price: "$8.99",
     },
     {
-        image: productFolder + "t-shirts.png",
+        image: productFolder + "t-shirts.jpg",
         name: "Farm T-Shirt",
         category: "farm merch",
         description: "Comfortable cotton t-shirt featuring our farm logo.",
         price: "$19.99",
     },
     {
-        image: productFolder + "hoodie.png",
+        image: productFolder + "hoodie.jpg",
         name: "Farm Hoodie",
         category: "farm merch",
         description: "Soft and cozy hoodie designed with our farm branding.",
         price: "$24.99",
     },
     {
-        image: productFolder + "mug.png",
+        image: productFolder + "mug.jpg",
         name: "Farm Mug",
         category: "farm merch",
         description: "A durable ceramic mug featuring a charming farm design.",
         price: "$12.99",
     },
     {
-        image: productFolder + "milk.png",
+        image: productFolder + "milk.jpg",
         name: "Fresh Milk",
         category: "animal products",
         description: "Creamy farm-fresh milk sourced from local dairy cows.",
@@ -171,14 +171,14 @@ const foodItems = [
         price: "$4.99",
     },
     {
-        image: productFolder + "butter.png",
+        image: productFolder + "butter.jpg",
         name: "Farm Butter",
         category: "animal products",
         description: "Rich and creamy butter crafted from fresh cream.",
         price: "$7.99",
     },
     {
-        image: productFolder + "muffins-blueberry.png",
+        image: productFolder + "muffins-blueberry.jpg",
         name: "Blueberry Muffins",
         category: "bakery",
         description:
@@ -186,21 +186,21 @@ const foodItems = [
         price: "$3.99 each",
     },
     {
-    image: productFolder + "grape-juice.png",
+    image: productFolder + "grape-juice.jpg",
     name: "Grape Juice",
     category: "juices",
     description: "Freshly pressed grape juice made from sweet, sun-ripened grapes with a naturally rich flavor.",
     price: "$5.99"
     },
     {
-    image: productFolder + "strawberry-lemonade.png",
+    image: productFolder + "strawberry-lemonade.jpg",
     name: "Strawberry Lemonade",
     category: "juices",
     description: "A refreshing blend of farm-fresh strawberries and tangy lemons, perfect for a warm summer day.",
     price: "$4.99"
     },
     {
-    image: productFolder + "peach-juice.png",
+    image: productFolder + "peach-juice.jpg",
     name: "Peach Juice",
     category: "juices",
     description: "Smooth and sweet peach juice crafted from juicy orchard peaches picked at peak ripeness.",
