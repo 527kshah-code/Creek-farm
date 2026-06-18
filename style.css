@@ -273,3 +273,7 @@ footer div {
   background-color: #D9B26d;
   color:#6B4C15;
 }
+
+.checkered {
+  background-image: url("assets/assets/Website\ Background\ Patterns/checkeredbg.png");
+}
